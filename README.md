@@ -55,7 +55,7 @@ def read_text_file(file_path):
 
 
 def main():
-    file_path = 'sample.txt'
+    file_path = 'input.txt'
 
     text = read_text_file(file_path)
     sentences = nltk.sent_tokenize(text)
